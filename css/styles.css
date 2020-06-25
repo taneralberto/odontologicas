@@ -23,7 +23,7 @@ section{
 
 .card{
     height: 200px;
-    border: 2px solid #fff;
+    border: 2px dotted #fff;
     border-radius: 30px;
     text-align: center;
     padding: 10px;
