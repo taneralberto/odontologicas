@@ -8,6 +8,19 @@ body{
     background: #222;
 }
 
+header{
+    min-height: 80px;
+    border: 2px solid #fff;
+    background: #333;
+    display: flex;
+    justify-content: center;
+}
+
+header span{
+    color: #fff;
+    font-size: 24px;
+}
+
 h1{
     color: #fff;
     text-align: center;
