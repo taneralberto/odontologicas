@@ -16,7 +16,10 @@ h1{
 }
 
 h2{
+    text-align: center;
     color: red;
+    padding: 10px;
+    font-size: 2em;
 }
 
 section{
