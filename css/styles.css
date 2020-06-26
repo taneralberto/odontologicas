@@ -51,3 +51,7 @@ section{
 h1::selection, .card h3::selection, .card p::selection{
     background: red;
 }
+
+*::selection{
+    background: red;
+}
