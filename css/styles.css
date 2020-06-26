@@ -5,24 +5,27 @@
 }
 
 body{
-    background: #222;
+    background: #eee;
 }
 
 header{
     min-height: 80px;
     border: 2px solid #fff;
-    background: #333;
+    background: hsla(0,0%,15%,.2);
     display: flex;
     justify-content: center;
+    border-radius: 0 0 50px 50px;
+    box-shadow: 0 5px 10px 0 #000;
 }
 
 header span{
-    color: #fff;
+    color: #000;
     font-size: 24px;
+    font-weight: 700;
 }
 
 h1{
-    color: #fff;
+    color: #000;
     text-align: center;
     padding: 20px;
     font-size: 3em;
@@ -43,14 +46,14 @@ section{
 
 .card{
     height: 200px;
-    border: 2px dotted #fff;
+    border: 2px solid #000;
     border-radius: 30px;
     text-align: center;
     padding: 10px;
 }
 
 .card:hover{
-    background: #333;
+    background: hsla(0,0%,15%,.2);
 }
 
 .card h3{
@@ -58,9 +61,10 @@ section{
 }
 
 .card h3, .card p{
-    color: #fff;
+    color: #000;
 }
 
 *::selection{
     background: red;
+    color: #000;
 }
