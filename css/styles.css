@@ -71,12 +71,12 @@ section{
 
 footer{
     min-height: 100px;
-    background: #333;
+    background: hsla(0,0%,15%,.2);
     border-radius: 50px 50px 0 0;
     display: flex;
     justify-content: center;
     flex-direction: column;
-    color: #fff;
+    color: #000;
     font-size: 24px;
     align-items: center;
     position: absolute;
@@ -86,7 +86,7 @@ footer{
 }
 
 footer div{
-    background: #000;
+    background: #fff;
     padding: 10px;
     border-radius: 50px;
     margin-bottom: 10px;
